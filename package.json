@@ -1,0 +1,23 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "chat app",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "devStart": "node index.js",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "chat",
+    "app"
+  ],
+  "author": "Marc Pedrin",
+  "license": "ISC"
+}
